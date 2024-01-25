@@ -7,6 +7,34 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+### Installation
+
+First of all, make sure you have all prerequisites installed:
+
+- [Node.js](https://nodejs.org/en/) ( >=14.\*)
+- [npm](https://www.npmjs.com/get-npm) version 3+ (
+  or [yarn](https://yarnpkg.com/lang/en/docs/install) version 1.16+)
+  and [Git](https://git-scm.com).
+
+After checking the prerequisites, follow these simple steps to install and use
+Vuestic Admin:
+
+```
+# clone the repo
+$ git clone https://github.com/sophannavouth01/computer_shop_api.git myproject
+
+# go into app's directory and install dependencies:
+$ cd computer_shop_api
+ + second :
+    connect database  
+  +  third : 
+   php artisan serve 
+$
+
+# serve with hot reload at localhost:8080 by default.
+
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
