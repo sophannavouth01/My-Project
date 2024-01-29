@@ -31,7 +31,10 @@ class PaymentController extends Controller
     $order = Order::find($validatedData['order_id']);
     $order->update(['status' => 'completed']);
 
-    return response()->json(['message' => 'Payment processed successfully', 'payment_id' => $payment->id]);
+    return response()->json([
+        'message' => 'Payment processed successfully', 
+        'payment_id' => $payment
+    ]);
 }
 
 }
