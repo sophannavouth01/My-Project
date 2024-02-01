@@ -15,14 +15,6 @@ class ProductController extends Controller
         $products = Product::all();
         return response()->json($products);
     }
-
-    
-    public function create()
-    {
-        //
-    }
-
-    
     public function store(Request $request)
     {
         $validator = Validator::make($request->all(), [
