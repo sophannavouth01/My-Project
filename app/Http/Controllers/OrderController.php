@@ -13,7 +13,7 @@ class OrderController extends Controller
 {
     public function index()
     {
-        $orders = Order::with('orderDetails.product')->paginate(10); // Using pagination
+        $orders = Order::with('orderDetails.product')->get(); // Temporarily remove pagination for debugging
 
         return response()->json($orders);
     }
